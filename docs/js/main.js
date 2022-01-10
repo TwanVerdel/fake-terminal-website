@@ -27,8 +27,8 @@ var main = (function () {
             rmdir_help: "Remove directory, this command will only work if the folders are empty.",
             touch_help: "Change file timestamps. If the file doesn't exist, it's created an empty one.",
             sudo_help: "Execute a command as the superuser.",
-            welcome: "Welcome to FTW (Fake Terminal Website)! :)\nIn order for you to start customizing the texts, go to js/main.js and replace the texts located at the configs var.\nIn that same file, you can define all the fake files you want as well as their content. This files will appear on the sidenav.\nAlso, don't forget to change the colors on the css/main.css file as well as the website title on the index.html file.\nNow in order to get started, feel free to either execute the 'help' command or use the more user-friendly colored sidenav at your left.\nIn order to skip text rolling, double click/touch anywhere.",
-            internet_explorer_warning: "NOTE: I see you're using internet explorer, this website won't work properly.",
+            welcome: "Welcome to my personal website!\nMy name is Twan Verdel and I am an IT-guy from Emmen, The Netherlands. Nowadays I am studying for my bachelor's degree Information Technologies at NHL Stenden University of Applied Sciences.\nDuring this time I have learned a lot about different subjects.\nWhat I like the most in IT is working with cloud environments and DevOps. Therefore I am very enthousiastic about AWS, Google Cloud, Kubernetes and Docker.\nAside from that, it really opened my eyes when I got in touch with Linux based and open source softwares. In the near future, I would like to become an network or DevOps engineer.\n\nIf you are interested in what is driving me to become a network or DevOps engineer, or you would like to get to know me better, feel free to look around.\nYou could try to navigate through the terminal, which is a fun experience. You could also use the colored sidenav for the easy way.\nTo skip text rolling double click anywhere.\n\n\nPs here is a small hint: try executing the 'help' command ;)",
+            internet_explorer_warning: "NOTE: WOW you are using internet explorer? You are a real OG, but I am sorry this website won't work properly.",
             welcome_file_name: "welcome_message.txt",
             invalid_command_message: "<value>: command not found.",
             reboot_message: "Preparing to reboot...\n\n3...\n\n2...\n\n1...\n\nRebooting...\n\n",
@@ -68,7 +68,8 @@ var main = (function () {
             "getting_started.txt": "First, go to js/main.js and replace all the text on both singleton vars.\n- configs: All the text used on the website.\n- files: All the fake files used on the website. These files are also used to be listed on the sidenav.\nAlso please notice if a file content is a raw URL, when clicked/concatenated it will be opened on a new tab.\nDon't forget also to:\n- Change the page title on the index.html file\n- Change the website color on the css/main.css\n- Change the images located at the img folder. The suggested sizes are 150x150 for the avatar and 32x32/16x16 for the favicon.",
             "contact.txt": "mail@example.com",
             "social_network_1.txt": "https://www.socialite.com/username/",
-            "social_network_2.txt": "https://example.com/profile/9382/"
+            "social_network_2.txt": "https://example.com/profile/9382/",
+            "LinkedIn.txt": "https://www.linkedin.com/in/twan-verdel-a8915a19a/"
         };
         return {
             getInstance: function (options) {

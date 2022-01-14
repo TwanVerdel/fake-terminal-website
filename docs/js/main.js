@@ -43,8 +43,8 @@ var main = (function () {
             accesible_cores: "Accessible cores",
             language: "Language",
             value_token: "<value>",
-            host: "example.com",
-            user: "guest",
+            host: "twanverdel.nl",
+            user: "Twan Verdel",
             is_root: false,
             type_delay: 20
         };
@@ -64,12 +64,16 @@ var main = (function () {
             }
         };
         Singleton.defaultOptions = {
-            "about.txt": "This website was made using only pure JavaScript with no extra libraries.\nI made it dynamic so anyone can use it, just download it from GitHub and change the config text according to your needs.\nIf you manage to find any bugs or security issues feel free to email me: luisbraganca@protonmail.com",
             "getting_started.txt": "First, go to js/main.js and replace all the text on both singleton vars.\n- configs: All the text used on the website.\n- files: All the fake files used on the website. These files are also used to be listed on the sidenav.\nAlso please notice if a file content is a raw URL, when clicked/concatenated it will be opened on a new tab.\nDon't forget also to:\n- Change the page title on the index.html file\n- Change the website color on the css/main.css\n- Change the images located at the img folder. The suggested sizes are 150x150 for the avatar and 32x32/16x16 for the favicon.",
-            "contact.txt": "mail@example.com",
-            "social_network_1.txt": "https://www.socialite.com/username/",
-            "social_network_2.txt": "https://example.com/profile/9382/",
-            "LinkedIn.txt": "https://www.linkedin.com/in/twan-verdel-a8915a19a/"
+            "about_me.txt":"\n\n\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0_____ ___. \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0__\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\n\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0/ \xa0_ \xa0\\\\_ |__ \xa0\xa0____ \xa0__ ___/ \xa0|_ \xa0\xa0\xa0_____ \xa0\xa0____ \xa0\n\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0/ \xa0/_\\ \xa0\\| __ \\ / \xa0_ \\| \xa0| \xa0\\ \xa0\xa0__\\ \xa0/ \xa0\xa0\xa0\xa0\\_/ __ \\ \n\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0/ \xa0\xa0\xa0| \xa0\xa0\xa0\\ \\_\\ ( \xa0<_> ) \xa0| \xa0/| \xa0| \xa0\xa0| \xa0Y Y \xa0\\ \xa0___/ \n\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\\____|__ \xa0/___ \xa0/\\____/|____/ |__| \xa0\xa0|__|_| \xa0/\\___ \xa0>\n\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\\/ \xa0\xa0\xa0\\/ \xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\\/ \xa0\xa0\xa0\xa0\\/ \n",
+            "job_experience.txt":"",
+            "education.txt":"",
+            "IT-interests.txt":"",
+            "contact.txt": "You could contact me with:\n*Email: twan.verdel@outlook.com\n*Tel.:+31 06 14 18 97 28 \n\n I am also on LinkedIn! To get to my LinkedIn use linkedIn.txt",
+            "hobbies_and_other.txt":"",
+            "instagram.txt": "https://www.instagram.com/twan_verdel/",
+            "linkedIn.txt": "https://www.linkedin.com/in/twan-verdel-a8915a19a/",
+            "credits.txt": "This website was made using only pure JavaScript with no extra libraries.\nIt's forked off a open source Github repository called Fake terminal website by Luis Braganca.\nI have added my own peronalised content."
         };
         return {
             getInstance: function (options) {
